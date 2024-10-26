@@ -1,0 +1,32 @@
+extends ./layouts/index
+
+block contenido
+    main.container.mt-5 
+            .row
+                .col-md-5
+                    img(src="img/nosotros.jpg", alt="imagen nosotros", class="img-fluid")
+                .col-md-7
+                    h1 #{pagina}
+                    blockquote Proin mollis mollis eleifend. Duis a nibh ut turpis imperdiet mollis non ut eros. Morbi sagittis luctus iaculis. In hac habitasse platea dictumst. Quisque at ante ante. Sed non imperdiet nisl. Nam in nulla suscipit, maximus sem quis, sodales justo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+
+                    p Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent tempor egestas arcu, eu iaculis orci tristique id. Nunc condimentum, elit vel porta sagittis, ipsum dolor imperdiet arcu, eget elementum nisi enim eu sapien.
+
+                    p Aenean a nulla est. Cras sollicitudin justo metus, nec commodo ex auctor hendrerit. Nullam auctor eget enim eget pretium. Nam vestibulum leo sed rutrum eleifend. Nunc accumsan mollis augue ac sagittis. Aliquam rhoncus est eget diam porta, a interdum felis porta. 
+
+    .listado-iconos
+        .container.mt-5.py-5.text-center 
+            .row 
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad", class="img-fluid mb-4")
+                    h2.mb-4 Seguridad 
+                    p Quisque vel euismod lacus. Donec ut ante nisl.
+                
+                .col-md-4
+                    img(src="img/icono_destinos.svg", alt="icono destinos", class="img-fluid mb-4")
+                    h2.mb-4 Mejores destinos 
+                    p Quisque vel euismod lacus. Donec ut ante nisl.
+                
+                .col-md-4
+                    img(src="img/icono_precios.svg", alt="icono precios", class="img-fluid mb-4")
+                    h2.mb-4 Los mejores precios 
+                    p Quisque vel euismod lacus. Donec ut ante nisl.
